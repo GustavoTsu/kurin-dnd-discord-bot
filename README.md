@@ -8,10 +8,12 @@ Um bot para discord com funcionalidades para sessoẽs de rpg
 
 ## Criar o bot
 - Para criar o bot acesse [discord.com/deve](https://discord.com/developers)
-- ![video](https://github.com/user-attachments/assets/c8a29ee0-611a-48a9-822c-f523775cd630)
+
+
+https://github.com/user-attachments/assets/120eae49-5938-44ab-a3a9-a9f43235e6d1
 
 ## Pegar o TOKEN
- ![Video](https://github.com/user-attachments/assets/f4d9cb96-8df1-49e7-aa2a-61fc5a3028c4)
+https://github.com/user-attachments/assets/3478de89-3fcc-416e-820e-8000f6882f10
 
 ## Rodar o bot
 - baixe o zip do projeto ou use `git clone https://github.com/GustavoTsu/kurin-d-d-discord-bot.git` 
