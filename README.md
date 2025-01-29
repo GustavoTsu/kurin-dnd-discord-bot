@@ -1,2 +1,2 @@
-# kurin-d-d-discord-bot
-U bot para discord com funcionalidades para sessoẽs de rpg
+# kurin-dnd-discord-bot
+Um bot para discord com funcionalidades para sessoẽs de rpg
