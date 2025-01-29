@@ -10,6 +10,7 @@ Um bot para discord com funcionalidades para sessoẽs de rpg
 - Para criar o bot acesse [discord.com/developers](https://discord.com/developers)
 
 https://github.com/user-attachments/assets/120eae49-5938-44ab-a3a9-a9f43235e6d1
+Após abrir o discord selecione o servidor desejado para adicionar o bot
 
 ## Pegar o TOKEN
 https://github.com/user-attachments/assets/3478de89-3fcc-416e-820e-8000f6882f10
