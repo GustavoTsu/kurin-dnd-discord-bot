@@ -7,8 +7,7 @@ Um bot para discord com funcionalidades para sessoẽs de rpg
 - um token de um bot que você tenha criado (caso não saiba como fazer siga o tutorial abaixo)
 
 ## Criar o bot
-- Para criar o bot acesse [discord.com/deve](https://discord.com/developers)
-
+- Para criar o bot acesse [discord.com/developers](https://discord.com/developers)
 
 https://github.com/user-attachments/assets/120eae49-5938-44ab-a3a9-a9f43235e6d1
 
