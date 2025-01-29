@@ -1,19 +1,19 @@
 # kurin-dnd-discord-bot
 Um bot para discord com funcionalidades para sessoẽs de rpg
  
-##Pré requisitos:
+## Pré requisitos:
 - python 3.9 ou superior
 - Um editor de código qualquer
 - um token de um bot que você tenha criado (caso não saiba como fazer siga o tutorial abaixo)
 
-#Criar o bot
+# Criar o bot
 Para criar o bot acesse [discord.com/deve](https://discord.com/developers)
  ![Watch the video](https://github.com/user-attachments/assets/c8a29ee0-611a-48a9-822c-f523775cd630)
 
-##Pegar o TOKEN
+## Pegar o TOKEN
  ![Watch the video](https://github.com/user-attachments/assets/f4d9cb96-8df1-49e7-aa2a-61fc5a3028c4)
 
-#Rodar o bot
+# Rodar o bot
 - baixe o zip do projeto ou use `git clone https://github.com/GustavoTsu/kurin-d-d-discord-bot.git` 
 - descompacte o projeto e abra a pasta no terminal, `cd Kurin-dnd-discord-bot` em sistemas linux
 - use `pip install -r requirements.txt para instalar as dependências
