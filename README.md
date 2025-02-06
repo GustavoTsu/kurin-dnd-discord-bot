@@ -18,7 +18,7 @@ https://github.com/user-attachments/assets/3478de89-3fcc-416e-820e-8000f6882f10
 ## Rodar o bot
 - baixe o zip do projeto ou use `git clone https://github.com/GustavoTsu/kurin-d-d-discord-bot.git` 
 - descompacte o projeto e abra a pasta no terminal, `cd Kurin-dnd-discord-bot` em sistemas linux
-- use `pip install -r requirements.txt para instalar as dependências
+- use `pip install -r requirements.txt` para instalar as dependências
 - abra um editor de código e coloque o token do seu bot na ultima linha do código
 ![Image](https://github.com/user-attachments/assets/3a477592-c91f-40a8-9c38-825d562996bd)
 
