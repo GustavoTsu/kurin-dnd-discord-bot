@@ -865,9 +865,9 @@ async def on_message(message):
 
     try:
         #verifica o formato da mensagem (1d20, 1d4 etc...)
-        if len(menssagem) > 2 and menssagem[1] in ['d', 'D']:
+        if len(dado) > 2 and dado[1] in ['d', 'D']:
             try: 
-                numero_dados, numero_lados = int(menssagem[0]), int(menssagem[2])
+                numero_dados, numero_lados = int(dado[0]), int(dado[2])
             except Exception as e:
                 return
 
