@@ -2,8 +2,6 @@ import discord
 from discord import app_commands
 from discord.ext import commands
 import json
-import random
-import re
 import sqlite3
 
 
@@ -866,7 +864,13 @@ async def on_message(message):
         rolagem_individual = False
 
     try:
-        if re.match(r"^\d+d\d+([+-]\d+)?$", dado):  # Verifica o formato (1d20, 2d6+3, etc.)
+        #verifica o formato da mensagem (1d20, 1d4 etc...)
+        if len(menssagem) > 2 and menssagem[1] in ['d', 'D']:
+            try: 
+                numero_dados, numero_lados = int(menssagem[0]), int(menssagem[2])
+            except Exception as e:
+                return
+
             if "+" in dado:
                 base, mod = dado.split("+")
                 mod = int(mod)
