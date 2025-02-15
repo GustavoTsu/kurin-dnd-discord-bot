@@ -354,9 +354,8 @@ class nova_arma_modal(discord.ui.Modal):
             "categoria": self.categoria.value,
         }
 
-        arma = {}
-        arma[novo_id] = conteudo
-        salvar_armas(arma)
+        armas[novo_id] = conteudo
+        salvar_armas(armas)
 
 
 
@@ -393,12 +392,13 @@ async def on_ready():
 
 
 @bot.command(name='xp')
-async def adicionar_xp(ctx:commands.Context, num:int = None):
-    fichas = carregar_fichas()
+async def adicionar_xp(ctx: commands.Context, num: int = None):
+    fichas = carregar_fichas() 
 
     if str(ctx.author.id) in fichas:
         jogador = fichas[str(ctx.author.id)]
         nome = jogador['fichas_nome']
+        
         if num is None:
             xp = jogador['fichas_xp']
             await ctx.send(f'{nome}, você tem {xp} de XP')
@@ -407,17 +407,19 @@ async def adicionar_xp(ctx:commands.Context, num:int = None):
         jogador['fichas_xp'] += num
         xp = jogador['fichas_xp']
         
-        
         nivel_anterior = jogador['fichas_nivel']
         nivel = verificar_nivel(xp)
 
+        jogador['fichas_nivel'] = nivel
+
+        fichas[str(ctx.author.id)] = jogador
+
         if nivel == nivel_anterior:
             await ctx.send(f'{nome}, você recebeu {num} de XP! Agora tendo um total de {xp}')
-
         else:
-            await ctx.send(f'**Parabens você subiu para o nivel {nivel}**\n agora vc tem um total de {xp} de XP')
+            await ctx.send(f'**Parabéns, você subiu para o nível {nivel}!**\nAgora você tem um total de {xp} de XP.')
 
-        salvar_fichas(jogador)
+        salvar_fichas(fichas) 
     else:
         await ctx.send(f"{ctx.author.display_name}, você ainda não tem uma ficha!")
 
